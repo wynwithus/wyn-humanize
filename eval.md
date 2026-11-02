@@ -18,6 +18,13 @@ For detect requests, make sure the response names each pattern found with a quot
 10. Does the edit keep useful edge and preserve structure unless the structure was hurting the piece?
 11. Are genuinely tangled sentences fixed while clear spoken cadence, fragments, and changes in pace remain intact?
 
+## Heading length limits
+
+1. Is every presentation headline or slide title **8 words or fewer**, including title slides?
+2. Is every H1 heading **8 words or fewer**, regardless of format?
+3. Are all shortened headings still clear and accurate, with essential qualifiers retained in the body where needed?
+4. Were other word limits applied only when explicitly specified, without requesting a limit for presentation headlines or H1 headings?
+
 ## Words to cut
 
 1. Are banned words, filler phrases, often-empty adverbs, and inflated claims removed unless quoted as examples?
