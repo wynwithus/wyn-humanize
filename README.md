@@ -48,7 +48,7 @@ For a review without rewriting:
 
 > Use wyn-humanize to show me what needs fixing. Don't rewrite it yet.
 
-Include any word limits you want it to follow. Checking titles and choices with a separate reader requires an assistant that can run subagents.
+Include any word limits you want it to follow.
 
 ## Credit
 
