@@ -10,9 +10,37 @@ Make writing shorter, clearer, and more natural while keeping your meaning and v
 - You need presentation headlines and H1 headings kept to a maximum of 8 words.
 - You want to know what needs fixing before rewriting.
 
+## Install with your agent
+
+Give your agent this repository's URL and ask it to install **wyn-humanize**. The agent can handle the setup for you.
+
+For example:
+
+> Install wyn-humanize from https://github.com/wynwithus/wyn-humanize as a reusable skill for my assistant.
+
+### Instructions for agents
+
+If the user has asked you to install this skill, **perform the installation** using [INSTALL.md](INSTALL.md). The skill is at the repository root: `SKILL.md` and its supporting files belong in one `wyn-humanize/` skill folder. Use your host's skill installer or skills directory, verify the installed files, and tell the user where the skill was installed and how to use it.
+
+### Install from a terminal
+
+If you use the [Skills CLI](https://github.com/vercel-labs/skills), run:
+
+```bash
+npx skills add wynwithus/wyn-humanize --skill wyn-humanize
+```
+
+Choose your assistant and installation scope when prompted. Add `--global` for an installation available across projects. This optional method requires Node.js 22.20 or later; an agent can also use its own installer.
+
+## Manual setup
+
+Download or clone this repository and place its files in a `wyn-humanize/` folder in your assistant's skills directory. Keep `SKILL.md`, `eval.md`, `LICENSE`, and `TERMS.md` together. See [INSTALL.md](INSTALL.md) for agent setup steps.
+
+If your chat cannot install skills, attach `SKILL.md` and `eval.md` and explicitly ask it to follow them for that conversation.
+
 ## How to use it
 
-Ask your AI assistant to install wyn-humanize from this repository. Then paste your draft and say:
+After installation, share your draft and say:
 
 > Use wyn-humanize to clean this up. Return only the edited text.
 
