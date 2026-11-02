@@ -26,6 +26,8 @@ Include any word limits you want it to follow. Checking titles and choices with 
 
 Built by Nick Cybela, inspired by and built off [Peter Yang’s No AI Slop](https://github.com/petergyang/no-ai-slop).
 
-## License
+## Rights and attribution
 
-[MIT](LICENSE).
+You may **fork, improve, reuse, and share** WYN Humanize, including commercially, under the [MIT License](LICENSE).
+
+**You must credit Nick Cybela** by retaining his copyright notice and the full MIT permission notice in all copies or substantial portions of the skill, including modified versions. Keep other applicable copyright notices too. See [TERMS.md](TERMS.md) for the reuse and attribution details.
