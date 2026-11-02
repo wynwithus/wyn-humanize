@@ -7,6 +7,7 @@ Make writing shorter, clearer, and more natural while keeping your meaning and v
 - An AI-generated draft sounds generic or unnatural.
 - An email, post, or document is too long or repeats itself.
 - A slide or headline needs fewer words.
+- You need presentation headlines and H1 headings kept to a maximum of 8 words.
 - You want to know what needs fixing before rewriting.
 
 ## How to use it
