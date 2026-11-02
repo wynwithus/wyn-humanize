@@ -1,30 +1,30 @@
-# WYN-humanize
+# wyn-humanize
 
-Edit drafts to remove AI-slop patterns, unnecessary metatext, eyebrows, subtext, and repetitive endings while preserving the writer's meaning and voice.
+Make writing shorter, clearer, and more natural while keeping your meaning and voice.
+
+## When to use it
+
+- An AI-generated draft sounds generic or unnatural.
+- An email, post, or document is too long or repeats itself.
+- A slide or headline needs fewer words.
+- You want to know what needs fixing before rewriting.
+
+## How to use it
+
+Ask your AI assistant to install wyn-humanize from this repository. Then paste your draft and say:
+
+> Use wyn-humanize to clean this up. Return only the edited text.
+
+For a review without rewriting:
+
+> Use wyn-humanize to show me what needs fixing. Don't rewrite it yet.
+
+Include any word limits you want it to follow. Checking titles and choices with a separate reader requires an assistant that can run subagents.
 
 ## Credit
 
-Inspired by and built off [Peter Yang’s No AI Slop](https://github.com/petergyang/no-ai-slop). His original editing rules and evaluation checklist form the foundation of WYN Humanize, with additions by Nick Cybela. Used under the [MIT license](LICENSE).
-
-Peter's [original No AI Slop project](https://github.com/petergyang/no-ai-slop) is the foundation of this skill and is maintained separately. Visit it for the original skill and its latest updates. This repository contains WYN's adaptation and additional rules.
-
-## Use
-
-Install this repository with your AI agent's skill installer, or copy `SKILL.md`, `eval.md`, `LICENSE`, and `NOTICE.md` into its `wyn-humanize` skill directory. Invoke the skill as `$wyn-humanize` and provide the draft you want edited or reviewed.
-
-Example request:
-
-> Use $wyn-humanize to edit the draft below. Return only the edited draft.
-
-The skill also supports detecting patterns without rewriting. Its independent title-and-option review requires an agent environment that supports fresh-context subagents. Supply any desired slide or headline word limits in your request.
-
-## Files
-
-- [SKILL.md](SKILL.md): editing instructions.
-- [eval.md](eval.md): checks applied after editing.
-- [NOTICE.md](NOTICE.md): attribution and upstream link.
-- [LICENSE](LICENSE): MIT license, retaining Peter Yang's copyright notice.
+Built by Nick Cybela, inspired by and built off [Peter Yang’s No AI Slop](https://github.com/petergyang/no-ai-slop).
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+[MIT](LICENSE).

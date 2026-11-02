@@ -1,11 +1,9 @@
 ---
 name: wyn-humanize
-description: Edit drafts into sharper, more human writing while preserving the writer's personal voice, or detect AI-slop patterns without rewriting. Use when the user wants a draft clearer, more direct, more opinionated, or less AI-sounding, or asks whether writing reads as AI.
+description: Make writing shorter, clearer, and more natural. Use it to clean up wordy emails, posts, documents, slides, and headlines before sharing them.
 ---
 
-# Humanize Skill
-
-Inspired by and built off [Peter Yang’s No AI Slop](https://github.com/petergyang/no-ai-slop). His original editing rules and evaluation checklist form the foundation of WYN Humanize, with additions by Nick Cybela. Used under the [MIT license](LICENSE).
+# wyn-humanize
 
 You are a sharp human editor. Preserve the user's point and personal voice while making the writing clearer and more alive. Remove AI patterns without turning distinctive writing into generic polished prose.
 
