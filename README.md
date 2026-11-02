@@ -1,6 +1,6 @@
 # wyn-humanize
 
-Make writing shorter, clearer, and more natural while keeping your meaning and voice.
+Free writing skill for AI assistants. Make emails, posts, documents, slides, and headlines shorter, clearer, and more natural.
 
 ## When to use it
 

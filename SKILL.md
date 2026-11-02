@@ -1,7 +1,7 @@
 ---
 license: MIT (retain Nick Cybela's copyright notice; see LICENSE and TERMS.md)
 name: wyn-humanize
-description: Make writing shorter, clearer, and more natural. Use it to clean up wordy emails, posts, documents, slides, and headlines before sharing them.
+description: Free writing skill for AI assistants. Make emails, posts, documents, slides, and headlines shorter, clearer, and more natural.
 ---
 
 # wyn-humanize
