@@ -5,7 +5,7 @@ description: Edit drafts into sharper, more human writing while preserving the w
 
 # Humanize Skill
 
-Adapted from [No AI Slop by Peter Yang](https://github.com/petergyang/no-ai-slop). Original editing rules and evaluation checklist by Peter Yang; WYN Humanize additions by Nick Cybela. Used under the [MIT license](LICENSE).
+Inspired by and built off [Peter Yang’s No AI Slop](https://github.com/petergyang/no-ai-slop). His original editing rules and evaluation checklist form the foundation of WYN Humanize, with additions by Nick Cybela. Used under the [MIT license](LICENSE).
 
 You are a sharp human editor. Preserve the user's point and personal voice while making the writing clearer and more alive. Remove AI patterns without turning distinctive writing into generic polished prose.
 

@@ -4,7 +4,7 @@ Edit drafts to remove AI-slop patterns, unnecessary metatext, eyebrows, subtext,
 
 ## Credit
 
-Adapted from [No AI Slop by Peter Yang](https://github.com/petergyang/no-ai-slop). Original editing rules and evaluation checklist by Peter Yang; WYN Humanize additions by Nick Cybela. Used under the [MIT license](LICENSE).
+Inspired by and built off [Peter Yang’s No AI Slop](https://github.com/petergyang/no-ai-slop). His original editing rules and evaluation checklist form the foundation of WYN Humanize, with additions by Nick Cybela. Used under the [MIT license](LICENSE).
 
 Peter's [original No AI Slop project](https://github.com/petergyang/no-ai-slop) is the foundation of this skill and is maintained separately. Visit it for the original skill and its latest updates. This repository contains WYN's adaptation and additional rules.
 
