@@ -49,7 +49,13 @@ Do not invent facts, examples, actors, causes, sources, certainty, opinions, or 
 
 – Replace unanchored deictic references with factual clarity and specific anchors.
 
-Prioritize saying it in less words. Apply the specified slides and headlines max words. If no maximum has been specified, ask for it rather than inventing a limit.
+Prioritize saying it in fewer words. Apply these hard limits before returning edited copy:
+
+- **Presentation headlines / slide titles: 8 words maximum.** This applies to every slide's primary headline, including title slides.
+- **H1 headings: 8 words maximum.** This applies to top-level headings in any format, including documents, articles, websites, and presentations.
+- Count words as space-separated words in the displayed heading; Markdown `#` markers are not words. A hyphenated term written without spaces counts as one word. Prefer fewer than eight words when the meaning remains clear.
+- Do not invent facts or drop essential qualifiers merely to meet the limit. Put necessary explanation in the body, or rewrite the headline so it remains accurate. A headline with nine or more words fails the check and must be revised.
+- For other heading types or copy formats, apply the user's stated word limit. If a limit is needed but none is given, ask rather than inventing one. Do not ask for a presentation-headline or H1 limit because eight words is the default maximum.
 
 ## Words to cut
 
