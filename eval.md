@@ -41,6 +41,14 @@ For detect requests, make sure the response names each pattern found with a quot
 8. Are colons sentence case unless grammar, a proper noun, a title, or code requires otherwise?
 9. Are em dashes used sparingly: Usually none in short copy, and only 1-2 in longer drafts when they clearly help?
 
+## Recipient comprehension
+
+- For an edit where comprehension affects a decision or action, did a fresh reviewer get only the reader-facing draft and the recipient’s realistic role and baseline knowledge?
+- Did the reviewer explain the point, applicable roles and actions, and settled versus open decisions in their own words, identifying what they had to infer?
+- Did the editor compare the readback with the author’s intent and make only supported, voice-preserving fixes?
+- Were material fixes retested with a fresh reviewer, within two correction passes? Did the final readback show that the recipient could understand and act without material guesswork?
+- If review was a self-check or a material gap remains, is that reported when the output allows it, without claiming an independent pass?
+
 ## Final read
 
 1. Does the draft avoid robotic symmetry, repeated sentence shapes, and stacked punchy fragments?
