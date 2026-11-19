@@ -140,22 +140,11 @@ Pattern
 	Markets don't reward. Buyers pay for things.
 	Instead: Name the human. "The team fixed it that week" beats "the complaint becomes a fix." If no specific person fits, use "you" to put the reader in the seat.
 
-## Review from the recipient’s perspective
-
-For a substantial reader-facing edit, spawn a fresh subagent as the intended recipient when available and authorized. This includes PRDs, proposals, decision memos, presentations, and shorter drafts where a title, choice, or instruction affects what someone does. Use a self-check for routine proofreading and low-stakes line edits. Detect-only requests follow the Detect workflow.
-
-1. **Editor to reviewer.** Start the subagent without inherited conversation context (use `fork_turns="none"` where supported). Send only the current reader-facing draft and the recipient’s role and baseline knowledge, if known. Use the real deliverable and any context the recipient will actually receive with it. Keep the intended takeaway, source notes, earlier drafts, editing history, and feedback from other reviewers with the editor. Do not ask the reviewer to consult outside sources, rewrite the copy, or contact anyone.
-2. **Reviewer to editor.** Ask for a short readback in the recipient’s own words. What is this about, why does it matter to you, who does what, and what would you do or decide after reading it? For choices or instructions, explain the difference between options or what action you would take. Mark anything the draft leaves unanswered and identify the wording or missing context that made you guess. Distinguish what the draft says from what you inferred.
-3. **Editor decides and revises.** Compare the readback with the author’s intended meaning and what the reader needs. Fix material misunderstandings with the smallest supported change. Preserve the author’s voice, factual limits, locked text, and useful ambiguity. Treat preferences about tone or phrasing as optional. If the source does not resolve a material gap, keep it open or ask the user a targeted question.
-4. **Retest and stop.** If you revised a material issue, send the new draft to a different fresh subagent with the same brief. Keep prior feedback and the expected answer out of the retest. Stop when the recipient gets the point, can follow the relevant roles and actions, and can tell decisions from open questions without material guesswork. Allow up to two correction passes after the first review, with at most three fresh readers total. Report any material gap that remains and whether the check was independent. If subagents are unavailable or unauthorized, use the same questions for a self-check and describe it as such when the output permits a change note.
-
 ## Workflow
 
 1. Read the full draft before editing.
 2. Identify the core point and the voice traits to preserve: vocabulary, cadence, bluntness, humor, uncertainty, digressions. If you cannot identify the core point, ask the user.
 3. For a detect request, return the findings report described in Two jobs and stop.
-Check eyebrows, subtext, headings, formatting, and the final sentence separately.
-
-4. For an edit, make the minimum effective changes, run the recipient review when applicable, and check the draft against `eval.md`.
-5. Make up to two focused correction passes, including any fixes from recipient review. State any material issue that remains.
+4. Make the minimum effective edit.
+5. Before the final edit check on a substantial reader-facing edit, start a fresh subagent as the intended recipient. Give it the reader-facing draft, the recipient’s job title, project duties, top priorities, and likely objections. Use the strict pass/fail rubric in [eval.md](eval.md#recipient-review-rubric). Fix supported misses and retest with a fresh reviewer until all material checks pass and the evidence score is at least 88%. If a missing fact or review access blocks a pass, report the blocker. Check eyebrows, subtext, headings, formatting, the final sentence, and the other criteria in `eval.md`.
 6. Output the full edited draft and a short **What changed** section.

@@ -41,13 +41,22 @@ For detect requests, make sure the response names each pattern found with a quot
 8. Are colons sentence case unless grammar, a proper noun, a title, or code requires otherwise?
 9. Are em dashes used sparingly: Usually none in short copy, and only 1-2 in longer drafts when they clearly help?
 
-## Recipient comprehension
+## Recipient review rubric
 
-- For an edit where comprehension affects a decision or action, did a fresh reviewer get only the reader-facing draft and the recipient’s realistic role and baseline knowledge?
-- Did the reviewer explain the point, applicable roles and actions, and settled versus open decisions in their own words, identifying what they had to infer?
-- Did the editor compare the readback with the author’s intent and make only supported, voice-preserving fixes?
-- Were material fixes retested with a fresh reviewer, within two correction passes? Did the final readback show that the recipient could understand and act without material guesswork?
-- If review was a self-check or a material gap remains, is that reported when the output allows it, without claiming an independent pass?
+Use for reader-facing edits where misunderstanding could change a decision or action. Use a self-check for routine proofreading. Detect-only requests follow the Detect workflow.
+
+**Brief the reviewer.** Start a subagent without inherited context (`fork_turns="none"` where supported). Give it the current draft and only what the recipient would receive, plus their job title, relevant duties on the project, top priorities, and likely objections. Use supplied or established audience facts. Label any necessary role assumptions and keep the verdict conditional if they could change it. Hold back the intended answer, source notes, earlier drafts, and prior feedback. Ask the reviewer to assess the draft as that recipient, without looking up context or rewriting the copy.
+
+**Grade the draft.** Freeze which checks apply before grading. Return a one-sentence readback and PASS or FAIL for each applicable check, with a quote or a specific omission. Distinguish what the draft states from what the reader had to infer. Count each specific defect once, under the check it directly fails. For a failure, say what the recipient would misunderstand, delay, or have to ask.
+
+| Area | Checks to grade separately |
+|---|---|
+| Purpose | Identify the subject and goal. Identify the consequence or benefit for this recipient. Distinguish an approved direction from a proposal or open decision. |
+| Responsibility | Identify what the recipient is expected to do or decide. Identify who owns each material handoff outside the recipient’s own task. Identify any condition or deadline that determines when to act. |
+| Grounding | Identify the basis the draft gives for consequential factual claims. Distinguish established facts from assumptions or unknowns. Find the answer or an explicit open question for each material recipient objection. |
+| Skimmability | Find the main point on a quick scan. Locate the relevant action or decision from headings, labels, or the opening. Understand essential project terms and option labels on first use. Grade placement here and grade missing instructions under Responsibility. |
+
+**Decide and repeat.** Mark an applicable check FAIL when support is missing or ambiguous. Exclude a check only when the deliverable does not call for it. The evidence score is 100 × passed applicable checks ÷ all applicable checks. A pass requires at least 88% and zero material failures. This score measures supported checks. Use a calibrated method for any separate claim about reader confidence. The editor verifies source fidelity, makes the smallest supported fixes, and retests with a fresh subagent using the same brief. Repeat while there is a supported fix. If a fact is missing, feedback cannot be resolved from the sources, or an independent reviewer is unavailable, disclose the blocker. A self-check can still improve the copy. Report it as a self-check.
 
 ## Final read
 
