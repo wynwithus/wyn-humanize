@@ -86,7 +86,7 @@ For the cuttable, just cut it.
 
 **Interpretive metadiscourse.** Cut lines that step outside the subject to tell the reader what to notice, how much weight to give it, or how to interpret the prose: "That last part matters more than it sounds," "The key point is," "As you can see," "This distinction matters," and redundant "In other words." If the point is clear, delete the aside. Otherwise, replace it with support or facts already in the content.
 
-**Metatext** Remove metatext unless explicitly asked to preserve it.
+**Metatext.** Remove labels such as “Sample,” “Example,” “Draft,” or “Suggested wording,” and narration about what the LLM is doing, when they add no context the intended reader needs. Do not introduce this unnecessary text into the finished artifact. Apply this check to headings, subheads, captions, labels, and body copy. Keep functional reader guidance, definitions, and qualifications, including labels needed to distinguish hypothetical content from facts. Preserve literal interface labels, quotations, and user-locked wording. Keep any required **What changed** note separate from the artifact.
 
 **Weasel attribution.** "Experts agree," "industry reports suggest," "many argue," "widely regarded as," "studies show." Name the source or cut the claim. If the user has no source, ask instead of inventing one.
 
